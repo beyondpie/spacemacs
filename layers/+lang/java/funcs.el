@@ -116,3 +116,7 @@
   "Setup LSP Java syntax checking."
   (unless (configuration-layer/layer-used-p 'lsp)
     (message "`lsp' layer is not installed, please add `lsp' layer to your dotfile.")))
+
+;; (defun spacemacs/ensime-sbt-do-fmt()
+;;   (interactive)
+;;   (sbt:command "fmt"))

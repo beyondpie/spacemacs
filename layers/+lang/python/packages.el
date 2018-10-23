@@ -81,6 +81,20 @@
       (add-to-list 'spacemacs-jump-handlers-python-mode
                    '(anaconda-mode-find-definitions :async t)))))
 
+(defun python/init-traad ()
+  (use-package traad
+    :if (eq python-backend 'anaconda)
+    :defer t
+    :init
+    (progn
+      (spacemacs/set-leader-keys-for-major-mode 'python-mode
+        "gu" 'traad-find-occurrences
+        "rn" 'traad-rename
+        "rm" 'traad-rename-module
+      )
+   )
+  )
+)
 (defun python/post-init-company ()
   ;; backend specific
   (add-hook 'python-mode-local-vars-hook #'spacemacs//python-setup-company)

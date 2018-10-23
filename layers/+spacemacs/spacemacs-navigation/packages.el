@@ -51,7 +51,8 @@
         ;; FIXME: Needs new binding.
         ;; "wC" 'spacemacs/ace-center-window
         "wD" 'spacemacs/ace-delete-window
-        "wM" 'ace-swap-window
+        ;;"wM" 'ace-swap-window
+        "TF" 'ace-swap-window
         "wW" 'ace-window)
       ;; set ace-window keys to home-row
       (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l)))))

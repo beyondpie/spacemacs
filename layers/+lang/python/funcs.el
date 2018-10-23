@@ -190,6 +190,8 @@ as the pyenv version then also return nil. This works around https://github.com/
         (insert "\n")
         (python-indent-line)))))
 
+;; FIXME: bug, due to not check the python env.
+;; should behavior simliarlly like py-isort-region.
 ;; from https://www.snip2code.com/Snippet/127022/Emacs-auto-remove-unused-import-statemen
 (defun spacemacs/python-remove-unused-imports()
   "Use Autoflake to remove unused function"

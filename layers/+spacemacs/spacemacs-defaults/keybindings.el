@@ -519,7 +519,9 @@
   :on (spacemacs/toggle-frame-fullscreen)
   :off (spacemacs/toggle-frame-fullscreen)
   :documentation "Display the current frame in full screen."
-  :evil-leader "TF")
+  ;; original TF
+  :evil-leader "wF")
+
 (spacemacs|add-toggle maximize-frame
   :status (eq (frame-parameter nil 'fullscreen) 'maximized)
   :on (toggle-frame-maximized)
@@ -624,7 +626,8 @@ respond to this toggle."
   "wd"  'spacemacs/delete-window
   "wt"  'spacemacs/toggle-current-window-dedication
   "wf"  'follow-mode
-  "wF"  'make-frame
+  ;;"wF"  'make-frame
+  "wM" 'make-frame
   "wH"  'evil-window-move-far-left
   "w <S-left>"  'evil-window-move-far-left
   "wh"  'evil-window-left

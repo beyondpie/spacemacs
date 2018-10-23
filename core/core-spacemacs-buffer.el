@@ -494,7 +494,7 @@ ADDITIONAL-WIDGETS: a function for inserting a widget under the frame."
   (let ((type spacemacs-buffer--current-note-type))
     (cond
      ((eq type 'quickhelp) (spacemacs-buffer//notes-insert-quickhelp))
-     ((eq type 'release-note) (spacemacs-buffer//notes-insert-release-note))
+     ;; ((eq type 'release-note) (spacemacs-buffer//notes-insert-release-note))
      (t))))
 
 (defun spacemacs-buffer/toggle-note (type)
