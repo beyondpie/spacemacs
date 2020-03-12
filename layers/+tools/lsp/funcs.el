@@ -52,7 +52,7 @@
     "gt" #'lsp-find-type-definition
     "gk" #'spacemacs/lsp-avy-goto-word
     "gK" #'spacemacs/lsp-avy-goto-symbol
-    "gM" #'lsp-ui-imenu
+    ;; "gM" #'lsp-ui-imenu
     ;; help
     "h" "help"
     "hh" #'lsp-describe-thing-at-point
