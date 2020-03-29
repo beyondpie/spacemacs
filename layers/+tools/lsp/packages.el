@@ -48,8 +48,8 @@
        )
       )))
 
-(defun lsp/init-helm-lsp ()
-  (use-package helm-lsp :defer t))
+;; (defun lsp/init-helm-lsp ()
+;;   (use-package helm-lsp :defer t))
 
 (defun lsp/init-lsp-ivy ()
   (use-package lsp-ivy :defer t))
