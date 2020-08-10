@@ -18,12 +18,3 @@
 
 (defvar ess-assign-key nil
   "Call `ess-insert-assign'.")
-
-;; I can assign the varibles below directly in .spacemacs.
-;; (defvar ess-style 'OWN
-	;; "setting ess style")
-
-;; (defvar ess-offset-continued 'straight
-	;; "controls indentation of continued statement, `straight` or `cascade`.")
-
-;; (defvar ess-use-company t)
