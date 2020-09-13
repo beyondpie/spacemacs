@@ -1,0 +1,5 @@
+** My Spacemacs
+
+I use [[https://github.com/syl20bnr/spacemacs][`spacemacs`]] as my major emacs configurations. 
+- `develop` branch is now the active branch instead of `master` branch.
+- `devzu` is my branch, which my emacs is based on.
