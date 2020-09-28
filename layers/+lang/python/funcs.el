@@ -342,6 +342,7 @@ to be called for each testrunner. "
   (spacemacs//python-call-correct-test-function arg '((nose . nosetests-pdb-suite))))
 
 (defun spacemacs/python-test-one (arg)
+
   "Run current test."
   (interactive "P")
   (spacemacs//python-call-correct-test-function arg '((pytest . pytest-one)
